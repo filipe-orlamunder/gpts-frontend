@@ -1,56 +1,81 @@
 .body {
-  background-color: #f2f2f2; /* Cinza claro */
-  margin: 0; /* Remove as margens padrão */
-  height: 100vh; /* Define a altura da tela para ocupar toda a altura visível */
-  display: flex; /* Usa o modelo de layout flexível */
-  justify-content: center; /* Centraliza os elementos horizontalmente */
-  align-items: center; /* Centraliza os elementos verticalmente */
+  background-color: #f2f2f2;
+  /* Cinza claro */
+  margin: 0;
+  /* Remove as margens padrão */
+  height: 100vh;
+  /* Define a altura da tela para ocupar toda a altura visível */
+  display: flex;
+  /* Usa o modelo de layout flexível */
+  justify-content: center;
+  /* Centraliza os elementos horizontalmente */
+  align-items: center;
+  /* Centraliza os elementos verticalmente */
 }
 
 /* Estilo para o retângulo branco com bordas arredondadas */
 .rectangle {
-  width: 410px; /* Largura do retângulo */
-  height: 560px; /* Altura do retângulo */
-  background-color: white; /* Branco */
-  border-radius: 40px; /* Borda arredondada */
-  padding: 40px; /* Espaçamento interno */
+  width: 410px;
+  /* Largura do retângulo */
+  height: 560px;
+  /* Altura do retângulo */
+  background-color: white;
+  /* Branco */
+  border-radius: 40px;
+  /* Borda arredondada */
+  padding: 40px;
+  /* Espaçamento interno */
 }
 
 .container {
-  text-align: center; /* Centraliza o texto */
+  text-align: center;
+  /* Centraliza o texto */
 }
 
 /* Estilo para o texto roxo */
 .container h1 {
-  color: #09184D; /* Cor roxa */
-  font-size: 36px; /* Tamanho da fonte aumentado */
+  color: #09184D;
+  /* Cor roxa */
+  font-size: 36px;
+  /* Tamanho da fonte aumentado */
 }
 
 /* Estilo para o botão de login */
 .container form button {
   width: 28%;
-  padding: 10px; /* Aumenta o tamanho do botão */
-  background-color: #09184D; /* Altera a cor de fundo para roxo */
-  color: white; /* Altera a cor do texto para branco */
+  padding: 10px;
+  /* Aumenta o tamanho do botão */
+  background-color: #09184D;
+  /* Altera a cor de fundo para roxo */
+  color: white;
+  /* Altera a cor do texto para branco */
   border: none;
   border-radius: 10px;
 }
 
 /* Estilo para os campos de e-mail e número de matrícula */
 .container form label {
-  display: block; /* Mostra cada label em uma linha separada */
-  margin-bottom: 5px; /* Espaçamento abaixo de cada label */
+  display: block;
+  /* Mostra cada label em uma linha separada */
+  margin-bottom: 5px;
+  /* Espaçamento abaixo de cada label */
 }
 
 .container form input[type="email"],
 .container form input[type="text"] {
-  width: 300px; /* Define a largura dos campos */
-  padding: 7px; /* Espaçamento interno */
-  border: 2px solid #D9D9D9; /* Borda cinza */
-  border-radius: 10px; /* Borda arredondada */
+  width: 300px;
+  /* Define a largura dos campos */
+  padding: 7px;
+  /* Espaçamento interno */
+  border: 2px solid #D9D9D9;
+  /* Borda cinza */
+  border-radius: 10px;
+  /* Borda arredondada */
 }
 
 .container form label {
-  text-align: left; /* Alinha o texto à esquerda */
-  padding-left: 49px; /* Adiciona um espaço de 10 pixels à esquerda do texto */
+  text-align: left;
+  /* Alinha o texto à esquerda */
+  padding-left: 49px;
+  /* Adiciona um espaço de 10 pixels à esquerda do texto */
 }

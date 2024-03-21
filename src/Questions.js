@@ -23,28 +23,28 @@ function Questions({ onEnd }) {
           <input type="radio" name="nota" value="5" onChange={() => handleNotaChange(5)} checked={nota === 5} />
           5: Excelente - Total satisfação.
         </label>
-        <br/>
+        <br />
         <label>
           <input type="radio" name="nota" value="4" onChange={() => handleNotaChange(4)} checked={nota === 4} />
           4: Muito bom - Com espaço para melhorias.
         </label>
-        <br/>
+        <br />
         <label>
           <input type="radio" name="nota" value="3" onChange={() => handleNotaChange(3)} checked={nota === 3} />
           3: Bom - Algumas melhorias necessárias.
         </label>
-        <br/>
+        <br />
         <label>
           <input type="radio" name="nota" value="2" onChange={() => handleNotaChange(2)} checked={nota === 2} />
           2: Regular - Melhorias significativas necessárias.
         </label>
-        <br/>
+        <br />
         <label>
           <input type="radio" name="nota" value="1" onChange={() => handleNotaChange(1)} checked={nota === 1} />
           1: Insatisfatório - Mudanças drásticas necessárias.
         </label>
       </div>
-      <br/>
+      <br />
       <button onClick={handleNextClick}>Prosseguir</button>
     </div>
   );

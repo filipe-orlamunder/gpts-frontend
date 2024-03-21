@@ -5,6 +5,7 @@ import Presentation from './Presentation';
 import Questions from './Questions';
 import LoginAdmin from './LoginAdmin';
 import EndScreen from './EndScreen';
+import AdminFunctions from './AdminFunctions';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('login');
@@ -34,6 +35,7 @@ function App() {
       {currentPage === 'questions' && <Questions onEnd={handleNextPage} />}
       {currentPage === 'admin' && <LoginAdmin onBack={handleBackToLogin} />}
       {currentPage === 'end' && <EndScreen onBackToLogin={handleBackToLogin} />}
+      {currentPage === 'admin-functions' && <AdminFunctions onBack={handleBackToLogin} />}
     </div>
   );
 }
