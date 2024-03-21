@@ -1,12 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './styles.css';
+import Admin from './LoginAdmin';
 
-function Login() {
+function Login({ onAdminLogin, onNext }) {
+  const [showAdminLogin, setShowAdminLogin] = useState(false);
+
+  const handleAdminLoginClick = () => {
+    setShowAdminLogin(true);
+    onAdminLogin(); // Chama a função fornecida pela prop para mudar de página
+  };
+
   return (
     <div className="body">
       <div className="rectangle">
         <div className="container">
-          <h1 className="purple">Bem-vindo a plataforma GPTS: Greate Place to Study</h1>
+          <h1 className="purple">Seja bem-vindo a plataforma GPTS: Great Place to Study</h1>
           <h5 className="black">Faça login com seu e-mail institucional <br/> e número da matrícula:</h5>
           <form>
             <label htmlFor="email">E-mail: </label>
@@ -17,11 +25,12 @@ function Login() {
             <input type="text" id="matricula" name="matricula" required />
             <br/>
             <br/>
-            <button type="submit">Login</button>
+            <button type="submit" onClick={onNext}>Login</button>
             <br/>
             <br/>
           </form>
-          <p className="admin-text">É um administrador? <a href="#">Clique aqui.</a></p>
+          <p className="admin-text">É um administrador? <a href="#" onClick={handleAdminLoginClick}>Clique aqui.</a></p>
+          {showAdminLogin && <Admin />}
         </div>
       </div>
     </div>
