@@ -9,9 +9,9 @@ function Questions({ onEnd }) {
   };
 
   const handleNextClick = () => {
-    // Aqui você pode adicionar a lógica para processar a nota antes de prosseguir para a próxima etapa
+    // Nessa linha pode adicionar a lógica para processar a nota antes de prosseguir para a próxima etapa
     console.log("Nota selecionada:", nota);
-    onEnd(); // Chama a função fornecida pela prop para avançar para a próxima etapa
+    onEnd();
   };
 
   return (

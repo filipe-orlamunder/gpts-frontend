@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import './styles.css';
-import Login from './Login';
-import Presentation from './Presentation';
-import Questions from './Questions';
-import LoginAdmin from './LoginAdmin';
-import EndScreen from './EndScreen';
+import Login from '../screens/UserLogin';
+import Presentation from '../screens/Presentation';
+import Questions from '../screens/Questions';
+import LoginAdmin from '../screens/AdminLogin';
+import EndScreen from '../screens/EndScreen';
 import AdminFunctions from './AdminFunctions';
 
 function App() {

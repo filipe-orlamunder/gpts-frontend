@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import './styles.css';
-import Admin from './LoginAdmin';
+import Admin from './AdminLogin';
 
 function Login({ onAdminLogin, onNext }) {
   const [showAdminLogin, setShowAdminLogin] = useState(false);
 
   const handleAdminLoginClick = () => {
     setShowAdminLogin(true);
-    onAdminLogin(); // Chama a função fornecida pela prop para mudar de página
+    onAdminLogin();
   };
 
   return (

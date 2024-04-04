@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import './styles.css';
-import AdminFunctions from './AdminFunctions';
+import AdminFunctions from '../utils/AdminFunctions';
 
 function LoginAdmin({ onBack }) {
   const [loggedIn, setLoggedIn] = useState(false);
 
   const handleLogin = (event) => {
     event.preventDefault();
-    // Aqui você pode adicionar a lógica de autenticação do administrador
+    // Nessa linha pode ser adicionado a lógica de autenticação do administrador
     setLoggedIn(true);
   };
 
