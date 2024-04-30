@@ -18,11 +18,11 @@ return (
         <h5 className="black">Faça login com seu e-mail institucional <br /> e número da matrícula:</h5>
         <form>
           <label htmlFor="email">E-mail: </label>
-          <input type="email" id="email" name="email" required />
+          <input type="email" id="email" name="email" />
           <br />
           <br />
           <label htmlFor="matricula">N° matrícula: </label>
-          <input type="text" id="matricula" name="matricula" required />
+          <input type="text" id="matricula" name="matricula" />
           <br />
           <br />
           <button type="submit" onClick={onNext}>Login</button>

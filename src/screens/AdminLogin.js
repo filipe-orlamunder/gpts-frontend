@@ -20,11 +20,11 @@ function LoginAdmin({ onBack }) {
             <h5 className="black">Faça login como administrador para <br />o controle interno da plataforma:</h5>
             <form onSubmit={handleLogin}>
               <label htmlFor="email">E-mail: </label>
-              <input type="email" id="email" name="email" required />
+              <input type="email" id="email" name="email" />
               <br />
               <br />
               <label htmlFor="senha">Senha: </label>
-              <input type="text" id="senha" name="senha" required />
+              <input type="text" id="senha" name="senha" />
               <br />
               <br />
               <button type="submit">Login</button>

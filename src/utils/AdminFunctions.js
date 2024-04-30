@@ -17,26 +17,26 @@ function AdminFunctions() {
     <div className="admin-container">
       <div className="admin-menu">
         <ul>
-          <li onClick={() => handleOptionClick('register')}>Cadastrar Alunos</li>
-          <li onClick={() => handleOptionClick('remove')}>Remover Alunos</li>
-          <li onClick={() => handleOptionClick('report')}>Emissão de Relatório</li>
+          <li onClick={() => handleOptionClick('register')}>Cadastrar alunos</li>
+          <li onClick={() => handleOptionClick('remove')}>Remover alunos</li>
+          <li onClick={() => handleOptionClick('report')}>Emissão de relatórios</li>
         </ul>
       </div>
       <div className="admin-content">
         {activeOption === 'register' && (
           <div>
-            <h2>Cadastrar Alunos</h2>
+            <h2>Cadastrar alunos</h2>
             <form>
               <div className="form-group">
                 <label htmlFor="email">Email:</label>
                 <input type="email" id="email" required />
               </div>
               <div className="form-group">
-                <label htmlFor="matricula">Número de Matrícula:</label>
+                <label htmlFor="matricula">Número de matrícula:</label>
                 <input type="text" id="matricula" required />
               </div>
               <div className="form-group">
-                <label htmlFor="institution">Instituição de Ensino:</label>
+                <label htmlFor="institution">Instituição de ensino:</label>
                 <select id="institution" value={selectedInstitution} onChange={handleInstitutionChange} required>
                   <option value="">Selecione a instituição</option>
                   <option value="Universidade Tecnológica Federal do Sul dos Campos">Universidade Tecnológica Federal do Sul dos Campos</option>
@@ -52,7 +52,7 @@ function AdminFunctions() {
         )}
         {activeOption === 'remove' && (
           <div>
-            <h2>Remover Alunos</h2>
+            <h2>Remover alunos</h2>
             <form>
               <div className="form-group">
                 <label htmlFor="emailRemove">Email:</label>
@@ -64,8 +64,8 @@ function AdminFunctions() {
         )}
         {activeOption === 'report' && (
           <div>
-            <h2>Emissão de Relatório</h2>
-            <button>Emitir Relatório</button>
+            <h2>Emissão de relatório</h2>
+            <button>Emitir em PDF</button>
           </div>
         )}
       </div>
