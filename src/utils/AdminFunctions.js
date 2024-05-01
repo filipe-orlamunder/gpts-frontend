@@ -23,12 +23,15 @@ function AdminFunctions() {
         </ul>
       </div>
       <div className="admin-content">
+
+        <h2>{activeOption === '' ? 'Escolha uma das opções do menu lateral para prosseguir:' : ''}</h2>
+
         {activeOption === 'register' && (
           <div>
-            <h2>Cadastrar alunos</h2>
+            <h2>Cadastrar um aluno na plataforma:</h2>
             <form>
               <div className="form-group">
-                <label htmlFor="email">Email:</label>
+                <label htmlFor="email">E-mail:</label>
                 <input type="email" id="email" required />
               </div>
               <div className="form-group">
@@ -46,26 +49,26 @@ function AdminFunctions() {
                   <option value="Universidade do Estado de Santa Catarina">Universidade do Estado de Santa Catarina</option>
                 </select>
               </div>
-              <button type="submit">Cadastrar</button>
+              <button className="admin-button" type="submit">Cadastrar</button>
             </form>
           </div>
         )}
         {activeOption === 'remove' && (
           <div>
-            <h2>Remover alunos</h2>
+            <h2>Remover o cadastro de um aluno:</h2>
             <form>
               <div className="form-group">
-                <label htmlFor="emailRemove">Email:</label>
+                <label htmlFor="emailRemove">E-mail:</label>
                 <input type="email" id="emailRemove" required />
               </div>
-              <button type="submit">Remover</button>
+              <button className="admin-button" type="submit">Remover</button>
             </form>
           </div>
         )}
         {activeOption === 'report' && (
           <div>
-            <h2>Emissão de relatório</h2>
-            <button>Emitir em PDF</button>
+            <h2>Emitir relatório:</h2>
+            <button className="admin-button">Emitir em PDF</button>
           </div>
         )}
       </div>

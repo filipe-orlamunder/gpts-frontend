@@ -7,7 +7,6 @@ function LoginAdmin({ onBack }) {
 
   const handleLogin = (event) => {
     event.preventDefault();
-    // Nessa linha pode ser adicionado a lógica de autenticação do administrador
     setLoggedIn(true);
   };
 

@@ -1,10 +1,11 @@
 import React from 'react';
+import './styles.css';
 
 function Presentation({ onNext }) {
   return (
     <div className="container">
       <h1>Introdução da plataforma:</h1>
-      <p>O software GPTS foi desenvolvido com o propósito de oferecer uma ferramenta  imparcial para a pesquisa<br />
+      <p>O software GPTS foi desenvolvido com o propósito de oferecer uma ferramenta imparcial para a pesquisa<br />
         do melhor lugar para estudar. Todas as respostas são mantidas de forma anônima, garantindo a confidencialidade<br />
         dos participantes. As instituições de ensino não terão acesso às informações. </p>
 
@@ -14,7 +15,7 @@ function Presentation({ onNext }) {
         3: Bom - Algumas melhorias necessárias.<br />
         2: Regular - Melhorias significativas necessárias.<br />
         1: Insatisfatório - Mudanças drásticas necessárias.</p>
-      <button onClick={onNext}>Prosseguir</button>
+      <button className="presentation-button" onClick={onNext}>Prosseguir</button>
     </div>
   );
 }

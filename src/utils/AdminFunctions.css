@@ -56,3 +56,41 @@
 .menu.closed div:nth-child(3) {
     transform: translateY(-8px) rotate(45deg);
 }
+
+.admin-button {
+    width: 28%;
+    padding: 10px;
+    background-color: #09184D;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.admin-container .admin-content form input[type="email"],
+.admin-container .admin-content form input[type="text"],
+.admin-container .admin-content form select {
+    width: 300px;
+    padding: 7px;
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+}
+
+
+.admin-container .admin-content form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.admin-container .admin-content form .form-group input[type="email"],
+.admin-container .admin-content form .form-group input[type="text"],
+.admin-container .admin-content form .form-group select {
+    width: 300px;
+    padding: 7px;
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+}
+
+.admin-container .admin-content form .form-group {
+    margin-bottom: 20px;
+}

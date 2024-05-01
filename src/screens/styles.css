@@ -50,3 +50,28 @@
   text-align: left;
   padding-left: 49px;
 }
+
+.presentation-button {
+  width: 130px;
+  padding: 10px;
+  background-color: #09184D;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.questions-button {
+  width: 130px;
+  padding: 10px;
+  background-color: #09184D;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.questions-aligner {
+  display: flex;
+  flex-direction: column;
+}
