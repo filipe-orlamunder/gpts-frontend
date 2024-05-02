@@ -11,8 +11,12 @@ function Question1({ onNext }) {
 
   return (
     <div className="container">
+      <br></br>
+      <br></br>
+      <br></br>
       <h1 className="purple">Estrutura física da universidade:</h1>
-      <p className="question-text">Como você avalia a infraestrutura física da sua universidade em termos de acessibilidade, manutenção e conforto?</p>
+      <p className="question-text"><strong>Considerando a importância da infraestrutura física para a qualidade da experiência acadêmica,<br></br> como você avalia a infraestrutura da universidade em termos de acessibilidade, manutenção e conforto?<br></br> Ao ponderar sobre essa questão, leve em consideração aspectos como a facilidade de acesso para todos os membros da <br></br>comunidade acadêmica, a eficácia da manutenção das instalações e o nível de conforto proporcionado<br></br> em diferentes áreas do campus.</strong></p>
+      <br></br>
       <div className="radio-group">
         {[1, 2, 3, 4, 5].map((option) => (
           <div key={option} className="radio-option">
@@ -38,8 +42,12 @@ function Question2({ onNext }) {
 
   return (
     <div className="container">
+      <br></br>
+      <br></br>
+      <br></br>
       <h1 className="purple">Limpeza dos ambientes:</h1>
-      <p className="question-text">Como você avalia a higiene e manutenção dos ambientes da universidade, incluindo banheiros, salas de aula e laboratórios?</p>
+      <p className="question-text"><strong>Considerando a importância da higiene e manutenção dos ambientes para garantir um ambiente propício ao aprendizado e à pesquisa,<br></br> como você avalia a higiene e manutenção dos ambientes da sua universidade, incluindo banheiros, salas de aula e laboratórios?<br></br> Ao ponderar sobre essa questão, leve em consideração a limpeza e conservação dos espaços, a disponibilidade de materiais e equipamentos em<br></br> condições adequadas de uso, bem como a eficiência dos serviços de manutenção em responder prontamente<br></br> as necessidades emergenciais.</strong></p>
+      <br></br>
       <div className="radio-group">
         {[1, 2, 3, 4, 5].map((option) => (
           <div key={option} className="radio-option">
@@ -65,8 +73,12 @@ function Question3({ onNext }) {
 
   return (
     <div className="container">
+      <br></br>
+      <br></br>
+      <br></br>
       <h1 className="purple">Experiência com as aulas:</h1>
-      <p className="question-text">Como você avalia o desempenho e competência dos professores em seu curso?</p>
+      <p className="question-text"><strong>Considerando a relevância do desempenho e competência dos professores para a qualidade do ensino e aprendizado,<br></br> como você avalia o desempenho e competência dos professores em seu curso?<br></br> Ao refletir sobre essa questão, leve em consideração aspectos como a clareza na apresentação do conteúdo, <br></br>a capacidade de estimular o interesse dos alunos, a disponibilidade para tirar dúvidas e fornecer<br></br> feedback construtivo, bem como a expertise no campo de atuação.</strong></p>
+      <br></br>
       <div className="radio-group">
         {[1, 2, 3, 4, 5].map((option) => (
           <div key={option} className="radio-option">
@@ -92,8 +104,13 @@ function Question4({ onNext }) {
 
   return (
     <div className="container">
+      <br></br>
+      <br></br>
+      <br></br>
       <h1 className="purple">Experiência com as aulas:</h1>
-      <p className="question-text">Como você avalia a abordagem de ensino adotada pelos professores e instrutores na instituição?</p>
+      <p className="question-text"><strong>Considerando a importância da abordagem de ensino para o desenvolvimento acadêmico dos estudantes,<br></br> como você avalia a abordagem de ensino adotada pelos professores?<br></br> Ao refletir sobre essa questão, leve em consideração aspectos como a diversidade de métodos pedagógicos utilizados,<br></br> a interação em sala de aula, o estímulo ao pensamento crítico e a aplicação prática do conteúdo.</strong></p>
+      <br></br>
+      <br></br>
       <div className="radio-group">
         {[1, 2, 3, 4, 5].map((option) => (
           <div key={option} className="radio-option">
@@ -119,8 +136,12 @@ function Question5({ onNext }) {
 
   return (
     <div className="container">
+      <br></br>
+      <br></br>
+      <br></br>
       <h1 className="purple">Experiência com as aulas:</h1>
-      <p className="question-text">Como você avalia o cumprimento dos horários e cronogramas estabelecidos no calendário acadêmico da instituição?</p>
+      <p className="question-text"><strong>Considerando a pontualidade para o bom funcionamento do ambiente acadêmico, como você avalia o cumprimento<br></br> dos horários e cronogramas estabelecidos no calendário acadêmico da instituição?<br></br> Ao ponderar sobre essa questão, leve em consideração aspectos como a regularidade das aulas e atividades, a disponibilidade dos professores<br></br>nos horários previstos, bem como a atualização e transparência das informações<br></br> relacionadas aos eventos acadêmicos.</strong></p>
+      <br></br>
       <div className="radio-group">
         {[1, 2, 3, 4, 5].map((option) => (
           <div key={option} className="radio-option">
