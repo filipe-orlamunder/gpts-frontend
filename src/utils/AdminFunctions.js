@@ -24,7 +24,7 @@ function AdminFunctions() {
       </div>
       <div className="admin-content">
         <br></br>
-        <h2>{activeOption === '' ? 'Escolha uma das opções do menu lateral para prosseguir' : ''}</h2>
+        <h2 class="apresentacao">{activeOption === '' ? 'Selecione no menu lateral uma opção' : ''}</h2>
 
         {activeOption === 'register' && (
           <div>
