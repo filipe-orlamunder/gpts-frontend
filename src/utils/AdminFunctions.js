@@ -42,7 +42,7 @@ function AdminFunctions() {
                 <label htmlFor="institution">Instituição de ensino:</label>
                 <select id="institution" value={selectedInstitution} onChange={handleInstitutionChange} required>
                   <option value="">Selecione a instituição</option>
-                  <option value="Universidade Tecnológica Federal do Sul dos Campos">Universidade Tecnológica Federal do Sul dos Campos</option>
+                  <option value="Universidade Federal da Bahia">Universidade Federal da Bahia</option>
                   <option value="Universidade Nacional de Ciências Aplicadas">Universidade Nacional de Ciências Aplicadas</option>
                   <option value="Universidade Federal de Tecnologia Ambiental">Universidade Federal de Tecnologia Ambiental</option>
                   <option value="Universidade Federal de Santa Catarina">Universidade Federal de Santa Catarina</option>
