@@ -20,7 +20,7 @@ function Question1({ onNext }) {
       <div className="radio-group">
         {[1, 2, 3, 4, 5].map((option) => (
           <div key={option} className="radio-option">
-            <input type="radio" name="nota" value={option} onChange={handleNotaChange} checked={nota === option} />
+            <input type="radio" name="nota" value={option} onChange={handleNotaChange} checked={nota === option} required/>
             <label className="radio-label">
               {option}: {getOptionText(option)}
             </label>

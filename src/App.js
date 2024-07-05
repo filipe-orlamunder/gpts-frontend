@@ -6,7 +6,7 @@ import Questions from './Questions';
 import Admin from './Admin';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('login');
+  const [currentPage, setCurrentPage] = useState('presentation');
 
   const handleNextPage = () => {
     if (currentPage === 'login') {
@@ -23,7 +23,6 @@ function App() {
   };
 
   const handleReport = () => {
-    // Adicionar a lógica para gerar o relatório
     alert('Relatório gerado com sucesso!');
   };
 
